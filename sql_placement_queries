@@ -1,0 +1,9 @@
+SELECT Department,
+       COUNT(*) AS total_students,
+       SUM(CASE WHEN Placed = 'Yes' THEN 1 ELSE 0 END) AS placed_students
+FROM placement_data
+GROUP BY Department;
+
+SELECT AVG(Package_LPA) AS avg_package
+FROM placement_data
+WHERE Placed = 'Yes';
