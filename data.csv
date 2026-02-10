@@ -1,0 +1,6 @@
+Student_ID,Department,CGPA,Skills,Internship,Placed,Package_LPA
+S001,CSE,8.4,"Python,SQL,Power BI",Yes,Yes,8
+S002,IT,7.6,"Java,SQL",No,No,0
+S003,CSE,9.1,"Python,ML,SQL",Yes,Yes,12
+S004,ECE,6.9,"C,Embedded Systems",No,No,0
+S005,IT,8.0,"Python,Excel,Tableau",Yes,Yes,6
